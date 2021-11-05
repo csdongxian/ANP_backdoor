@@ -27,7 +27,7 @@ By default, we train a backdoored resnet-18 under badnets with 5% poison rate an
 python train_backdoor_cifar.py --output-dir './save'
 ```
 
-We save trained backdoored model and the trigger info as `./save/last_model.th` and `./save/trigger_info.th`. We will release checkpoints used in paper soon.
+We save trained backdoored model and the trigger info as `./save/last_model.th` and `./save/trigger_info.th`. We have released some checkpoints used in [Google drive](https://drive.google.com/drive/folders/1voFOKUyyprzvF3cLQf2N5OOCqsxmNLnn?usp=sharing) or [Baidu drive](https://pan.baidu.com/s/1oHIh5kmgq5iISaF1MRImUg) (pwd: bmrb).
 
 
 #### Step 2: Optimize masks under neuron perturbations
