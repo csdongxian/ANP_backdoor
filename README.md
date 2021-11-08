@@ -15,7 +15,7 @@ Code for NeurIPS 2021 "[Adversarial Neuron Pruning Purifies Backdoored Deep Mode
 
 ANP can easily repair backdoored deep models using limited clean data and limited computational resources. Only **500 clean images** from CIFAR-10 and **2000 iterations** are used in the displayed example.
 
-<img src="https://github.com/csdongxian/ANP_backdoor/blob/main/_plot/ANP_overall.png" width="80%" height="80%">
+<img src="https://github.com/csdongxian/ANP_backdoor/blob/main/_plot/ANP_overall.png" width="60%" height="60%">
 
 ## Requisite
 This code is implemented in PyTorch, and we have tested the code under the following environment settings:
@@ -27,7 +27,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
 
 ## A Quick Start - How to use it
 
-For a detailed introduction, please refer to our [recipe]().
+For a detailed introduction, please refer to our [recipe](https://github.com/csdongxian/ANP_backdoor/blob/main/recipe.md).
 
 #### Step 1: Train a backdoored DNN
 By default, we train a backdoored resnet-18 under badnets with 5% poison rate and class 0 as target label, 

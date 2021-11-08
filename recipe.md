@@ -50,7 +50,7 @@ python prune_neuron_cifar.py --pruning-by number --pruning-step 20 --pruning-max
 
 If steps above are conducted correctly, we can visualize the results. The expected visualization is as follows,
 
-<img src="https://github.com/csdongxian/ANP_backdoor/blob/main/_plot/ANP_recipe.png" width="80%" height="80%">
+<img src="https://github.com/csdongxian/ANP_backdoor/blob/main/_plot/ANP_recipe.png" width="60%" height="60%">
 
 ## Reference
 
