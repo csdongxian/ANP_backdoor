@@ -1,6 +1,7 @@
 # Adversarial Neuron Pruning Purifies Backdoored Deep Models
 
-Code for NeurIPS 2021 "[Adversarial Neuron Pruning Purifies Backdoored Deep Models](https://arxiv.org/abs/2110.14430)" by [Dongxian Wu](https://scholar.google.com/citations?user=ZQzqQqwAAAAJ&hl=en&oi=ao) and [Yisen Wang](https://sites.google.com/site/csyisenwang/). 
+Backdoor Defense @ NeurIPS 2021 "[Adversarial Neuron Pruning Purifies Backdoored Deep Models](https://arxiv.org/abs/2110.14430)" by [Dongxian Wu](https://csdongxian.github.io/) and [Yisen Wang](https://yisenwang.github.io/). 
+
 ## News
 
 11/08/2021 - Our checkpoints and recipe have been released.
@@ -17,7 +18,7 @@ ANP can easily repair backdoored deep models using limited clean data and limite
 
 <img src="https://github.com/csdongxian/ANP_backdoor/blob/main/_plot/ANP_overall.png" width="60%" height="60%">
 
-## Requisite
+## Requirements
 This code is implemented in PyTorch, and we have tested the code under the following environment settings:
 
 - python = 3.7.3
@@ -57,7 +58,7 @@ python prune_neuron_cifar.py --output-dir './save' --mask-file './save/mask_valu
 
 ## Citing this work
 
-If you use our code, please consider cite the following: Dongxian Wu and Yisen Wang. Adversarial Neuron Pruning Purifies Backdoored Deep Models. In NeurIPS, 2021.
+If you use our code, please consider cite our work
 
 ```bibtex
 @inproceedings{wu2021adversarial,
